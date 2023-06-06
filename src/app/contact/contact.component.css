@@ -1,0 +1,146 @@
+.decorator{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.arrow1{
+  height: 120px;
+  width: 4px;
+  background-color: #5163FF;
+  position: absolute;
+}
+.arrow2{
+  height: 4px;
+  width: 120px;
+  background-color: #5163FF;
+}
+.decorator1{
+  display: flex;
+  justify-content: flex-end;
+  align-items:  flex-end;
+  flex:1;
+}
+.arrowb1{
+  height: 4px;
+  width: 120px;
+  background-color: #5163FF;
+}
+.arrowb2{
+  height: 120px;
+  width: 4px;
+  background-color: #5163FF;
+  position: absolute;
+}
+
+.arrowp1{
+  height: 80px;
+  width: 4px;
+  background-color: #5163FF;
+  position: absolute;
+}
+.arrowp2{
+  height: 4px;
+  width: 80px;
+  background-color: #5163FF;
+}
+
+.container-contact{
+  width: 100%;
+}
+.container-contact .subtitle{
+  text-align: center;
+}
+.container-contact .subtitle h2{
+  color: #3FEB44;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'Fira Code', monospace;
+}
+.container-contact .subtitle h2 span{
+  color: var(--text-color);
+}
+.container-contact .form-contact{
+  max-width: 1200px;
+  margin: auto;
+  background: #ffffff24;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  padding: 25px;
+  box-shadow: 0px 0px 10px #0000001f ;
+
+}
+.container-contact .form-contact form {
+  margin: 10px 20px;
+}
+.container-contact .form-contact form input{
+  background-color: #bbbbbb62;
+  height: 40px;
+  border: none;
+  color: var(--text-color);
+  outline: none;
+  padding: 0px 20px;
+
+}
+.container-contact .form-contact form .data-user{
+  display: flex;
+  gap: 25px;
+}
+.container-contact .form-contact form .data-user .info-user{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.container-contact .form-contact form .data-user .msj-user{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.container-contact .form-contact form .data-user .msj-user textarea {
+  height: 100%;
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: none;
+  color: var(--text-color);
+  background-color: #bbbbbb62;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.container-contact  .btn-send{
+  border: 3px solid #3FEB44;
+  margin: 13px auto;
+  position: relative;
+  top: 10px;
+  width: max-content;
+}
+.container-contact  .btn-send button{
+  background: rgba(255, 255, 255, 0.384);
+  backdrop-filter: blur(7px);
+  border: none;
+  -webkit-backdrop-filter: blur(7px);
+  padding: 12px 22px;
+  height: 100%;
+  position: relative;
+  left: -8px;
+  top: -8px;
+  color: var(--text-color);
+  font-family: 'Fira Code', monospace;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.container-contact  .btn-send button span{
+  color: #3FEB44;
+}
+.container-contact  .btn-send button:hover{
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 3px 15px #00000033;
+}
+.container-contact  .btn-send button:hover:active{
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px #0000003d;
+}

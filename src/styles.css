@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 :root{
   --bg-color: #f9f9f9;
@@ -21,4 +22,11 @@ body{
   transition: all 0.3s ease-in;
 
 }
-
+div{
+  color: var(--text-color) ;
+}
+a{
+  color: var(--text-color);
+  text-decoration: none;
+  font-family: 'Fira Code', monospace;
+}

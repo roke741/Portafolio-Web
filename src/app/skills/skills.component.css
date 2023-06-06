@@ -1,0 +1,100 @@
+.container-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-skills .subtitle h2{
+  color: #3FEB44;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'Fira Code', monospace;
+}
+.container-skills .subtitle h2 span{
+  color: var(--text-color);
+}
+
+.container-skills .section{
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+}
+
+.container-skills .section .skills-img img{
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 845px) {
+  .container-skills .section{
+    display: block;
+  }
+  .container-cards-skills{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .container-skills .section .skills-img img{
+    padding: 45px;
+    box-sizing: border-box;
+  }
+
+}
+
+@media screen and (max-width: 1245px) {
+  .container-skills .section .container-cards-skills .container-card .card-skills-title{
+    font-size: 24px;
+  }
+  .container-skills .section .container-cards-skills .container-card .card-skills-content{
+    font-size: 16px;
+  }
+}
+
+.container-cards-skills{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.card-skills{
+  width: 260px;
+  border: 3px solid var(--border-color);
+  margin-bottom: 20px;
+}
+.card-skills-title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #5163FF;
+  border-bottom: 3px solid var(--border-color);
+}
+.card-skills-body{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.card-skills-content{
+  padding: 5px 13px;
+  font-size: 18px;
+  font-family: 'Fira Code', monospace;
+}
+.card-decorator-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card-decorator-end{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.card-skills-body .decorator1{
+  height: 60px;
+  width: 4px;
+  background-color: #5163FF;
+  position: absolute;
+}
+.card-skills-body .decorator2{
+  height: 4px;
+  width: 65px;
+  background-color: #5163FF;
+}

@@ -1,0 +1,129 @@
+.decorator{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.arrow1{
+  height: 120px;
+  width: 4px;
+  background-color: #5163FF;
+  position: absolute;
+}
+.arrow2{
+  height: 4px;
+  width: 120px;
+  background-color: #5163FF;
+}
+.decorator1{
+  display: flex;
+  justify-content: flex-end;
+  align-items:  flex-end;
+  flex:1;
+}
+.container-projects{
+  max-width: 1400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-cards-projects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width:100%;
+  max-width: 1300px;
+  margin:auto;
+}
+.card-projects{
+  border: 3px solid var(--border-color);
+}
+.card-projects .card-project-img img{
+  width: 100%;
+  border-bottom: 3px solid var(--border-color);
+}
+.card-project-title{
+  font-size: 22px;
+  font-family: 'Fira Code', monospace;
+  font-weight: bold; 
+  color: #5163FF;
+  border-bottom: 3px solid var(--border-color);
+
+  text-align: center;
+  padding: 6px;
+}
+.card-project-content{
+  padding: 8px;
+}
+.arrowp1{
+  height: 80px;
+  width: 4px;
+  background-color: #5163FF;
+  position: absolute;
+}
+.arrowp2{
+  height: 4px;
+  width: 80px;
+  background-color: #5163FF;
+}
+.card-project-text{
+  padding: 8px 12px;
+  font-size: 16px;
+  font-family: 'Fira Code', monospace;
+  height: 65px;
+}
+.card-project-button{
+  border: 3px solid #3FEB44;
+  margin: 13px auto;
+  position: relative;
+  top: 10px;
+  width: max-content;
+}
+.card-project-button button{
+  background: #ffffff62;
+  backdrop-filter: blur(7px);
+  border: none;
+  -webkit-backdrop-filter: blur(7px);
+  padding: 12px 22px;
+  height: 100%;
+  position: relative;
+  left: -8px;
+  top: -8px;
+  color: var(--text-color);
+  font-family: 'Fira Code', monospace;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.card-project-button button span{
+  color: #3FEB44;
+}
+.card-project-button button:hover{
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.card-project-button button:hover:active{
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.container-projects .subtitle{
+  text-align: center;
+}
+.container-projects .subtitle h2{
+  color: #3FEB44;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'Fira Code', monospace;
+}
+.container-projects .subtitle h2 span{
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+
+  .container-cards-projects{
+    grid-template-columns: 1fr;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+}
