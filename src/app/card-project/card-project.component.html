@@ -1,0 +1,33 @@
+<div>
+  <div class="card-projects">
+    <div class="card-project-img">
+      <img [src]="imageProject" alt="">
+      <!--img src="../../assets/TiendaEcommerce-bootstrap5.png" alt=""-->
+    </div>
+    <div class="card-project-body">
+      <div class="card-project-title">
+        {{ titleProject }}
+      </div>
+      <div class="card-project-content">
+        <div class="decorator">
+          <span class="arrowp2"></span>
+          <span class="arrowp1"></span>
+        </div>
+        <div class="card-project-text">
+          {{ descriptionProject }}
+        </div>
+        <div class="card-project-button">
+          <a [href]="githubLinkProject" target="_blank">
+            <button>
+              <span>#</span>GitHub
+            </button>
+          </a>
+        </div>
+        <div class="decorator1">
+          <span class="arrowp2"></span>
+          <span class="arrowp1"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

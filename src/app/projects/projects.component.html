@@ -11,186 +11,47 @@
     </div>
 
     <div class="container-cards-projects">
-      <div>
-        <div class="card-projects">
-          <div class="card-project-img">
-            <img src="../../assets/TiendaEcommerce-bootstrap5.png" alt="">
-          </div>
-          <div class="card-project-body">
-            <div class="card-project-title">
-              Tienda Ecommerce Bootstrap 5
-            </div>
-            <div class="card-project-content">
-              <div class="decorator">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-              <div class="card-project-text">
-                Pagina Maquete Ecommerce, realizada con Bootstrap 5.
-              </div>
-              <div class="card-project-button">
-                <button>
-                  <span>#</span>GitHub
-                </button>
-              </div>
-              <div class="decorator1">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="card-projects">
-          <div class="card-project-img">
-            <img src="../../assets/peruzon.png" alt="">
-          </div>
-          <div class="card-project-body">
-            <div class="card-project-title">
-              Peruzon
-            </div>
-            <div class="card-project-content">
-              <div class="decorator">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-              <div class="card-project-text">
-                Sistema de facturacion e inventario, realizado con: Bootstrap5, Js, PHP, JQuery y MySQL
-              </div>
-              <div class="card-project-button">
-                <button>
-                  <span>#</span>GitHub
-                </button>
-              </div>
-              <div class="decorator1">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="card-projects">
-          <div class="card-project-img">
-            <img src="../../assets/bot_r .png" alt="">
-          </div>
-          <div class="card-project-body">
-            <div class="card-project-title">
-              BOT_R (Script)
-            </div>
-            <div class="card-project-content">
-              <div class="decorator">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-              <div class="card-project-text">
-                Buscar informacion como nombres y dni, realizado con Python3 y librerias de web scraping </div>
-              <div class="card-project-button">
-                <button>
-                  <span>#</span>GitHub
-                </button>
-              </div>
-              <div class="decorator1">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="card-projects">
-          <div class="card-project-img">
-            <img src="../../assets/Sneakers.png" alt="">
-          </div>
-          <div class="card-project-body">
-            <div class="card-project-title">
-              Sneakers
-            </div>
-            <div class="card-project-content">
-              <div class="decorator">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-              <div class="card-project-text">
-                E-commerce relacionado a la venta de zapatillas por temporada
-              </div>
-              <div class="card-project-button">
-                <button>
-                  <span>#</span>GitHub
-                </button>
-              </div>
-              <div class="decorator1">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="card-projects">
-          <div class="card-project-img">
-            <img src="../../assets/Factugo.png" alt="">
-          </div>
-          <div class="card-project-body">
-            <div class="card-project-title">
-              FactoGo
-            </div>
-            <div class="card-project-content">
-              <div class="decorator">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-              <div class="card-project-text">
-                Sistema de ventas y facturacion, desarrollado con Java y MySQL
-              </div>
-              <div class="card-project-button">
-                <button>
-                  <span>#</span>GitHub
-                </button>
-              </div>
-              <div class="decorator1">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="card-projects">
-          <div class="card-project-img">
-            <img src="../../assets/Telco.png" alt="">
-          </div>
-          <div class="card-project-body">
-            <div class="card-project-title">
-              Telco Telefonia
-            </div>
-            <div class="card-project-content">
-              <div class="decorator">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-              <div class="card-project-text">
-                Pagina web de servicio de telefonia, desarrollado
-                con Angular 15, Spring Boot, MySQL, PostgreSQL, MongoDB
-              </div>
-              <div class="card-project-button">
-                <button>
-                  <span>#</span>GitHub
-                </button>
-              </div>
-              <div class="decorator1">
-                <span class="arrowp2"></span>
-                <span class="arrowp1"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <app-card-project
+        imageProject="../../assets/TiendaEcommerce-bootstrap5.png"
+        titleProject="Tienda Ecommerce Bootstrap 5"
+        descriptionProject="Pagina Maquete Ecommerce, realizada con Bootstrap 5."
+        githubLinkProject="https://github.com/roke741/ecommerce-bootstrap5"
+      >
+      </app-card-project>
+      <app-card-project
+        imageProject="../../assets/peruzon.png"
+        titleProject="Peruzon"
+        descriptionProject="Sistema de facturacion e inventario, realizado con: Bootstrap5, Js, PHP, JQuery y MySQL."
+        githubLinkProject="https://github.com/roke741/Peruzon"
+      >
+      </app-card-project>
+      <app-card-project
+        imageProject="../../assets/bot_r.png"
+        titleProject="BOT_R (Script)"
+        descriptionProject="Buscar informacion como nombres y dni, realizado con Python3 y librerias de web scraping"
+        githubLinkProject="https://github.com/roke741/BOT_R"
+      >
+      </app-card-project>
+      <app-card-project
+        imageProject="../../assets/Sneakers.png"
+        titleProject="Sneakers"
+        descriptionProject="E-commerce relacionado a la venta de zapatillas por temporada."
+        githubLinkProject="https://github.com/jorgeayaladev/Sneakers"
+      >
+      </app-card-project>
+      <app-card-project
+        imageProject="../../assets/Factugo.png"
+        titleProject="FactuGo"
+        descriptionProject="Sistema de ventas y facturacion, desarrollado con Java y MySQL."
+        githubLinkProject="https://github.com/roke741/FACTUGO"
+      >
+      </app-card-project>
+      <app-card-project
+        imageProject="../../assets/Telco.png"
+        titleProject="Telco Telefonia"
+        descriptionProject="Pagina web de servicio de telefonia, desarrollado con Angular 15, Spring Boot, MySQL, PostgreSQL, MongoDB"
+      >
+      </app-card-project>
     </div>
   </div>
 </section>
