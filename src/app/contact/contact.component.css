@@ -144,3 +144,17 @@
   transform: scale(0.95);
   box-shadow: 3px 2px 22px 1px #0000003d;
 }
+
+@media screen and (max-width: 768px) {
+  .container-contact .form-contact form .data-user{
+    display: block;
+  }
+  .container-contact .form-contact form .data-user .info-user{
+    width: 100%;
+    margin-bottom: 20px
+  }
+  .container-contact .form-contact form .data-user .msj-user{
+    width: 100%;
+    height: 200px;
+  }
+}

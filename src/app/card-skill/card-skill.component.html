@@ -1,0 +1,24 @@
+<div class="container-cards-skills" >
+  <div class="container-card" *ngFor="let cardColumn of skillCards">
+    <div class="card-skills" *ngFor="let card of cardColumn">
+      <div class="card-skills-title" >
+        <span>/</span>{{card.title}}
+      </div>
+      <div class="card-skills-body">
+        <div class="card-decorator-start">
+          <span class="decorator2"></span>
+          <span class="decorator1"></span>
+        </div>
+        <div class="card-skills-content">
+          {{card.content}}
+        </div>
+        <div class="card-decorator-end">
+          <span class="decorator2"></span>
+          <span class="decorator1"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -33,9 +33,15 @@
     align-items: center;
 
   }
+  .container-skills .section .skills-img {
+    max-width: 650px;
+
+  }
   .container-skills .section .skills-img img{
-    padding: 45px;
+    padding: 35px;
     box-sizing: border-box;
+    width: 100%;
+
   }
 
 }
